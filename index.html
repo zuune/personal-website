@@ -16,13 +16,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
+                        <a class="nav-link" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -30,9 +30,11 @@
         </div>
     </nav>
 
+
+    
     <div id="carouselExampleSlidesOnly" class="carousel" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active p-5" style="background-color: rgb(223, 223, 223);">
+            <div class="carousel-item active p-5" style="background: hsla(18, 33%, 76%, 1);">
                 <div class="profile text-center">
                         <img src="profile.jpg" class="img-thumbnail shadow-lg rounded-circle" alt="">
 
@@ -44,7 +46,7 @@
         </div>
     </div>
 
-    <div class="container" id="#about">
+    <div class="container" id="#about" style="height: 80vh; padding-top: 10rem;">
         <h3 class="fs-1 text-center mt-5">About Me</h3>
 
         <div class="row mt-5">
@@ -54,6 +56,63 @@
             <div class="col-sm-12 col-md-12 col-lg-6 fs-5 text-muted">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quisquam veritatis. Commodi, quam! Magni, porro voluptatum accusantium nobis suscipit rem maiores neque quo corporis voluptatem, eveniet consequuntur. Consequatur, autem quasi!
             </div>
+        </div>
+    </div>
+
+    <div class="container" id="project" style="height: 100vh;">
+        <h3 class="fs-1 text-center mt-5 mb-5">My Projects</h3>
+
+        <div class="card-container row">
+
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+                <div class="card" >
+                    <img src="porto1.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Toko Bangunan</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+                <div class="card" >
+                    <img src="porto2.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Agensi Digital</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container" id="contact" style="height: 100vh; padding-top: 10rem;">
+        <h3 class="fs-1 text-center mt-5 mb-5">Get In Touch</h3>
+
+        <div class="row">
+
+                <iframe class="col-lg-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126979.86255054144!2d105.9224464420468!3d-5.9781125768845955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41903819290ab7%3A0x5f5c4dbfc123deee!2sCilegon%2C%20Banten!5e0!3m2!1sen!2sid!4v1699778672357!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="col-lg-12 col-sm-12 col-md-12 py-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                            <label for="textarea" class="form-label">Your message</label>
+                            <textarea class="form-control" id="textarea" aria-label="With textarea"></textarea>
+                            </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
         </div>
     </div>
     
